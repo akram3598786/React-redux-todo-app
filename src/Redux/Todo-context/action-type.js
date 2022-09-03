@@ -1,0 +1,8 @@
+
+export const GET_TODO_REQUEST = "GET_TODO_REQUEST";
+export const GET_TODO_DONE = "GET_TODO_DONE";
+export const GET_TODO_FAIL = "GET_TODO_FAIL";
+export const POST_TODO_REQUEST = "POST_TODO_REQUEST";
+export const POST_TODO_DONE = "POST_TODO_DONE";
+export const POST_TODO_FAIL = "POST_TODO_FAIL";
+

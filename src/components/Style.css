@@ -1,0 +1,49 @@
+
+.NoteWall{
+    background-color: rgb(167, 128, 128);
+    color: white;
+    border-radius: 30px;
+    margin: 8px 30px;
+}
+.todopapers{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 50px;
+}
+.NotePaper{
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}   
+
+@media screen and (min-width: 501px) and (max-width : 750px){
+    .todopapers{
+       grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width : 500px){
+    .todopapers{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+    }
+}
+
+/* Login Form CSS  */
+
+#formCover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formCover .form{
+    padding: 50px;
+    border: 2px solid brown;
+    border-radius: 15px;
+}

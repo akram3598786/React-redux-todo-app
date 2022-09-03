@@ -1,0 +1,49 @@
+{
+  "Todos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "sts": true
+    },
+    {
+      "id": 2,
+      "title": "Learn Redux",
+      "sts": true
+    },
+    {
+      "title": "bhy",
+      "sts": false,
+      "id": 3
+    },
+    {
+      "title": "Main",
+      "sts": true,
+      "id": 4
+    },
+    {
+      "title": "Learnings",
+      "sts": false,
+      "id": 7
+    },
+    {
+      "title": "doing Great",
+      "sts": true,
+      "id": 8
+    },
+    {
+      "title": "Learn backecd",
+      "sts": false,
+      "id": 9
+    },
+    {
+      "title": "Be perfect",
+      "sts": false,
+      "id": 10
+    },
+    {
+      "title": "scvz",
+      "sts": false,
+      "id": 11
+    }
+  ]
+}
