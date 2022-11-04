@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Idea
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+During the learning of react and JSON server to perform all CRUD functionalities I built this web application using React.js. In this application user can add, update and delete todo in list rendering from JSON server with pagination facility.
+User won't be able to view or do anything with authentication via login.
 
 ## Used Stacks with React.js
 <ul>
@@ -14,14 +15,26 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  <li>AXIOS Methods</li>
  <li>CSS - Media Queries</li>
 </ul>
---> 
---> 
---> 
---> 
---> 
---> 
---> 
---> 
+
+# Login page
+![login](https://user-images.githubusercontent.com/57341544/200069733-a1372216-2972-4254-a590-7cb0205c24ce.png)
+
+
+# Home page
+![home](https://user-images.githubusercontent.com/57341544/200068871-3efe7cfe-acb5-44e0-8fcb-403c32884112.png)
+
+
+# Add todo page
+![addtodo](https://user-images.githubusercontent.com/57341544/200068910-2a8a0745-2cd2-4c1e-a0ec-1f1a14b21f4f.png)
+
+
+# View todo details page - User can update todo done or pending
+![todoitem](https://user-images.githubusercontent.com/57341544/200068895-795163b5-3eb1-4a94-8d9c-8b366a73541f.png)
+
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
