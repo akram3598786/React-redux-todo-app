@@ -28,7 +28,7 @@ User won't be able to view or do anything with authentication via login.
 ![addtodo](https://user-images.githubusercontent.com/57341544/200068910-2a8a0745-2cd2-4c1e-a0ec-1f1a14b21f4f.png)
 
 
-# View todo details page
+# View todo details page - User can update todo done or pending
 ![todoitem](https://user-images.githubusercontent.com/57341544/200068895-795163b5-3eb1-4a94-8d9c-8b366a73541f.png)
 
 
