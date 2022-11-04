@@ -38,9 +38,11 @@ export const Createtodo=()=>{
      const addTodo=(payload)=>{
         dispatch(addTodo_Req());
          axios 
-        .post("http://localhost:8080/Todos", payload)
+        .post("https://my-databases-json.herokuapp.com/todos", payload)
         .then((response)=>{
             dispatch(addTodo_Done());
+            alert(`${payload.title} Created successfuly`)
+            navigate('/')
         })
         .then(()=>{
             navigate("/");
