@@ -17,7 +17,7 @@ User won't be able to view or do anything with authentication via login.
 </ul>
 
 # Login page
-![login](https://user-images.githubusercontent.com/57341544/200068853-ce320540-4513-46a4-888f-194103a75b78.png)
+![login](https://user-images.githubusercontent.com/57341544/200069733-a1372216-2972-4254-a590-7cb0205c24ce.png)
 
 
 # Home page
