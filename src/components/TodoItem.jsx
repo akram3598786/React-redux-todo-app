@@ -31,8 +31,8 @@ justify-content : space-around;
 `;
    const getTodoitem = () => {
       axios
-         // .get(`http://localhost:8080/Todos/${TodoId}`)
-         .get(`https://my-databases-json.herokuapp.com/todos/${TodoId}`)
+         // .get(`https://my-databases-json.herokuapp.com/todos/${TodoId}`)
+         .get(`https://json-server-02.onrender.com/todos/${TodoId}`)
          .then((res) => {
             //   console.log(res);
             setTodoitem(res.data);
@@ -43,7 +43,8 @@ justify-content : space-around;
    const changeSts = () => {
       Todoitem.sts = Todoitem.sts ? false : true;
       axios
-         .patch(`https://my-databases-json.herokuapp.com/todos/${TodoId}`, Todoitem, 'Content-Type": "application/json')
+         // .patch(`https://my-databases-json.herokuapp.com/todos/${TodoId}`, Todoitem, 'Content-Type": "application/json')
+         .patch(`https://json-server-02.onrender.com/todos/${TodoId}`, Todoitem, 'Content-Type": "application/json')
          .then(() => getTodoitem())
 
       /*
@@ -64,7 +65,8 @@ justify-content : space-around;
 
    const handleDelete = () => {
       axios
-         .delete(`https://my-databases-json.herokuapp.com/todos/${TodoId}`)
+         // .delete(`https://my-databases-json.herokuapp.com/todos/${TodoId}`)
+         .delete(`https://json-server-02.onrender.com/todos/${TodoId}`)
          .then(() => {
             alert("Todo deleted")
             navigate("/");

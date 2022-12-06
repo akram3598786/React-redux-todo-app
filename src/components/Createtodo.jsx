@@ -24,7 +24,7 @@ export const Createtodo=()=>{
      const getTodos=()=>{
         dispatch(getTodo_Req());
          axios
-          .get("http://localhost:8080/Todos")
+          .get("https://json-server-02.onrender.com/Todos")
           .then((res)=>{
               dispatch(getTodo_Done(res.data));
           })
@@ -38,7 +38,8 @@ export const Createtodo=()=>{
      const addTodo=(payload)=>{
         dispatch(addTodo_Req());
          axios 
-        .post("https://my-databases-json.herokuapp.com/todos", payload)
+        // .post("https://my-databases-json.herokuapp.com/todos", payload)
+        .post("https://json-server-02.onrender.com/todos", payload)
         .then((response)=>{
             dispatch(addTodo_Done());
             alert(`${payload.title} Created successfuly`)

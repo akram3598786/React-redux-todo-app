@@ -40,8 +40,8 @@ export const TodoList = () => {
     function getTodos() {
         dispatch(getTodo_Req());
         axios
-            // .get("http://localhost:8080/Todos")
-            .get(`https://my-databases-json.herokuapp.com/todos?_page=${Page}&_limit=16`)
+            // .get(`https://my-databases-json.herokuapp.com/todos?_page=${Page}&_limit=16`)
+            .get(`https://json-server-02.onrender.com/todos?_page=${Page}&_limit=16`)
             .then((res) => {
                   let obj = res.headers;
                  let total = obj['x-total-count']
